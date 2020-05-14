@@ -109,3 +109,36 @@ hr.divider1 {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: green;
 }
+
+@media (max-width: 767px)
+{
+  
+nav {
+  position: fixed!important;
+  z-index: 10;
+  width: 100%;
+}
+
+.nav-link {
+display: unset;
+}
+
+.jumbotron h1 {
+  font-size: 1.5rem;
+}
+.jumbotron h3 {
+  font-size: 1rem;
+}
+.jumbotron p {
+  font-size: 0.7rem;
+}
+.futi{
+  padding-top: 60px;
+}
+.fix3 {
+padding-top: 30px;
+}
+.nav-item {
+  padding-bottom: 5px;
+}
+}
